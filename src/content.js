@@ -1,0 +1,85 @@
+const asset = (name) => `/integral/${name}`;
+
+export const subsidiaries = [
+  {
+    id: "metric",
+    name: "Metric Oil and Gas",
+    category: "Energy",
+    path: "/oil-gas.html",
+    image: asset("home-service-energy.jpg"),
+    summary: "Advancing responsible energy interests through supply, logistics, partnerships and infrastructure.",
+    intro: "Metric Oil and Gas Limited represents Integral Holdings' participation in the energy sector.",
+    detail: "Energy remains fundamental to industrial growth, transportation, infrastructure development and economic productivity.",
+    capabilities: ["Energy supply", "Oil and gas trading", "Petroleum products", "Energy logistics", "Distribution", "Infrastructure", "Procurement", "Industry partnerships"],
+  },
+  {
+    id: "construction",
+    name: "Doi-Teck Construction",
+    category: "Infrastructure",
+    path: "/construction.html",
+    image: asset("home-service-infrastructure.jpg"),
+    summary: "Delivering projects through disciplined planning, quality execution and durable outcomes.",
+    intro: "Doi-Teck Construction Company Limited represents the Group's construction and built-environment interests.",
+    detail: "Its direction is centred on careful planning, coordinated delivery, quality workmanship and an emphasis on durable outcomes.",
+    capabilities: ["Building construction", "Civil works", "Infrastructure development", "Project management", "Construction management", "Renovation and rehabilitation", "Building finishing", "Procurement coordination"],
+  },
+  {
+    id: "autos",
+    name: "84th Autos",
+    category: "Mobility",
+    path: "/automobiles.html",
+    image: asset("autos-showroom.webp"),
+    summary: "Vehicle sales, rental, fleet management and technical services for people and business.",
+    intro: "84th Autos covers vehicle sales, rental, fleet management, repairs and technical production work.",
+    detail: "Work starts with the vehicle's intended use, then follows a clear specification through supply, operation and service.",
+    capabilities: ["Vehicle sales", "Fabrication", "Rental", "Fleet management", "Repairs", "Component coupling", "Manufacturing"],
+  },
+  {
+    id: "realty",
+    name: "84th Luxury Realty",
+    category: "Development",
+    path: "/real-estate.html",
+    image: asset("home-service-property.jpg"),
+    summary: "Creating well-conceived spaces for living, working, investing and long-term value.",
+    intro: "84th Luxury Realty Limited represents Integral Holdings' interests in real estate, property and development.",
+    detail: "The company is focused on the potential of well-conceived property to create both commercial value and better environments.",
+    capabilities: ["Property development", "Real estate investment", "Property sales", "Property marketing", "Property management", "Residential development", "Commercial development", "Real estate advisory"],
+  },
+  {
+    id: "farms",
+    name: "84th Farms",
+    category: "Agriculture",
+    path: "/agriculture.html",
+    image: asset("africa/zaria-greenhouse.jpg"),
+    summary: "Feed manufacturing, livestock, greenhouse growing, agro-food processing and agricultural training.",
+    intro: "84th Farms works across farm production and the steps that support it, from feed to processing.",
+    detail: "Its Academy of Agriculture provides a path into practical agricultural training.",
+    capabilities: ["Feed manufacturing", "Poultry", "Piggery", "Fishery", "Snailery", "Cattle rearing", "Greenhouse farming", "Agro-food processing", "Agricultural training"],
+  },
+  {
+    id: "engineering",
+    name: "Doi-Teck Engineering",
+    category: "Systems",
+    path: "/engineering.html",
+    image: asset("engineers-industrial-site.jpg"),
+    summary: "Connecting design thinking and technical systems with practical delivery.",
+    intro: "Doi-Teck Engineering Limited extends the Group's capabilities into engineering, technical systems and infrastructure solutions.",
+    detail: "Engineering provides the technical foundation through which ideas become practical, reliable and efficient systems.",
+    capabilities: ["Engineering design", "Technical consultancy", "Project engineering", "Infrastructure engineering", "Mechanical engineering", "Electrical engineering", "Civil and structural engineering", "Technical project support", "Operations support"],
+  },
+];
+
+export const leaders = [
+  { name: "Moshe Douglas Teki", role: "Founder & Chief Executive Officer", image: asset("leadership-moshe-douglas-teki.jpg"), bio: "A business leader and entrepreneur with experience across construction, fabrication, oil and gas, automobiles and agriculture." },
+  { name: "Ezinne T. Anya", role: "Head, Human Resources", image: asset("leadership-ezinne-anya.jpg"), bio: "A human resources professional focused on people development, strategic HR management and organisational effectiveness." },
+  { name: "Douye Faith Debakenana", role: "Head, Administration", image: asset("leadership-douye-faith.jpg"), bio: "An administrative professional with experience in administration, customer relations and operations." },
+  { name: "Uchechukwu Eneda Philip, ACA", role: "Head, Accounts", image: asset("leadership-uchechukwu-philip.jpg"), bio: "Leads the accounts function across the Group." },
+];
+
+export const values = [
+  { title: "Innovation", text: "Exploring better ideas, technologies and systems that improve how we work and the value we create." },
+  { title: "Excellence", text: "Holding a high standard across strategy, operations, project execution and customer experience." },
+  { title: "Professionalism", text: "Approaching every responsibility with competence, discipline, respect and accountability." },
+  { title: "Transparency", text: "Building relationships through integrity, openness and responsible corporate conduct." },
+  { title: "People oriented", text: "Keeping employees, customers, partners and communities central to sustainable growth." },
+];
